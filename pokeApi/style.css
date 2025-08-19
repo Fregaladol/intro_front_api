@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background: lightblue;
+  opacity: 0.9; 
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  background-color:red;
+}
+
+.poke-card {
+  width: 280px;
+  height: 400px;
+  background: #fdfdfd;
+  border-radius: 15px;
+  border: 8px solid gold;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.card-header {
+  background: #ffcb05;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 3px solid #2a75bb;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: sandybrown;
+}
+
+.card-body img {
+  width: 150px;
+}
+
+.card-footer {
+  background: #2a75bb;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  border-top: 3px solid #ffcb05;
+}
